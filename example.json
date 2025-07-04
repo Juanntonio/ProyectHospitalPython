@@ -1,0 +1,54 @@
+{
+    "hospitals": {
+        "PTS": {
+            "hospital_name": "PTS",
+            "departments": [
+                "cardio"
+            ],
+            "doctors": [
+                {
+                    "doctor_name": "pepe",
+                    "hospital_name": "PTS"
+                }
+            ],
+            "nurses": [
+                {
+                    "nurse_name": "pepita",
+                    "department_name": "cardio"
+                }
+            ],
+            "appointments": [
+                {
+                    "patient_name": "Fede",
+                    "time": "09:00"
+                }
+            ],
+            "urgent_care_queue": [
+                {
+                    "patient_name": {
+                        "patient_name": "Juan",
+                        "timestamp": 1747586813.4299526
+                    }
+                }
+            ],
+            "surgery": [],
+            "rooms": {
+                "Juan": "cardio1"
+            }
+        }
+    },
+    "patients": {
+        "Fede": {
+            "patient_name": "Fede",
+            "hospital_stack": [
+                "PTS"
+            ]
+        },
+        "Juan": {
+            "patient_name": "Juan",
+            "hospital_stack": [
+                "PTS"
+            ]
+        }
+    }
+}
